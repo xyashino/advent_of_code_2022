@@ -16,7 +16,7 @@ const {readFile} = require('fs').promises;
         }
     });
     const [first,second ,third] = caloriesAteByElves.sort((a,b)=>b-a);
-    console.log(first)
-    console.log(first + second+ third )
+    console.log('Part one: ',first)
+    console.log('Part two: ',first + second+ third )
     console.timeEnd()
 })()

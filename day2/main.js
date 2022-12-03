@@ -55,8 +55,8 @@ console.time();
         }
         secondTaskScore += 6 + itemPoints.get(firstPlayer.lose);
     })
-    console.log({firstTaskScore})
-    console.log({secondTaskScore});
+    console.log('Part one: ',firstTaskScore)
+    console.log('Part two: ',secondTaskScore);
 })()
 console.timeEnd()
 
